@@ -24,7 +24,7 @@ These instructions have been tested on Ubuntu 20.04 and Python 3.9.
 
 Create a conda environment, named *imo*, containing all the dependencies for the project:
 
-```conda create -n imo --file conda_environment.yaml```
+```conda env create -f conda_environment.yaml```
 
 You might need to install *pyquaternion* manually. To do so: 
 
